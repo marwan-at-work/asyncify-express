@@ -6,7 +6,7 @@ const asyncifyExpress = app => {
       if (httpVerbsArray.includes(prop)) {
         return delegate(app, prop);
       } else {
-        return app[prop] && ( ( app[prop].bind && app[prop].bind(app) ) || app[prop] );
+        return app[prop] && app[prop].bind && app[prop].bind(app);
       }
     }
   });
