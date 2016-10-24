@@ -1,0 +1,25 @@
+{
+  "name": "async-express",
+  "version": "0.0.0",
+  "description": "pass async/await to express handlers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marwan91/asyncify-express.git"
+  },
+  "keywords": [
+    "async",
+    "await",
+    "express",
+    "error handling"
+  ],
+  "author": "Marwan Sulaiman <marwan.sameer@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marwan91/asyncify-express.git/issues"
+  },
+  "homepage": "https://github.com/marwan91/asyncify-express.git#readme"
+}
