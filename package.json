@@ -1,5 +1,5 @@
 {
-  "name": "async-express",
+  "name": "asyncify-express",
   "version": "0.0.0",
   "description": "pass async/await to express handlers",
   "main": "index.js",
