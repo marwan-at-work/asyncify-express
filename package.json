@@ -1,6 +1,6 @@
 {
   "name": "asyncify-express",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "pass async/await to express handlers",
   "main": "index.js",
   "scripts": {
