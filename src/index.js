@@ -1,6 +1,6 @@
 const httpVerbsArray = [ 'get', 'post', 'put', 'delete', 'patch' ];
 
-const asyncExpress = app => {
+const asyncifyExpress = app => {
   return new Proxy(app, {
     get(app, prop) {
       if (httpVerbsArray.includes(prop)) {
@@ -25,4 +25,4 @@ const wrap = asyncFunc => {
   }
 };
 
-export default asyncExpress;
+export default asyncifyExpress;
